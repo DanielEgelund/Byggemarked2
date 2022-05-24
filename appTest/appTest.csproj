@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
+    <ProjectGuid>{A4BB2309-C648-49C3-897C-B64B0C8DD3D1}</ProjectGuid>
+    <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TemplateGuid>{f1d599d5-32e4-4ac3-bfce-fa91478e30e4}</TemplateGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>appTest</RootNamespace>
+    <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
+    <AssemblyName>appTest</AssemblyName>
+    <MtouchEnableSGenConc>true</MtouchEnableSGenConc>
+    <MtouchHttpClientHandler>NSUrlSessionHandler</MtouchHttpClientHandler>
+    <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhoneSimulator' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>portable</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhoneSimulator\Debug</OutputPath>
+    <DefineConstants>DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <MtouchArch>x86_64</MtouchArch>
+    <MtouchLink>None</MtouchLink>
+    <MtouchDebug>true</MtouchDebug>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhoneSimulator\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <MtouchLink>None</MtouchLink>
+    <MtouchArch>x86_64</MtouchArch>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhone' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>portable</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhone\Debug</OutputPath>
+    <DefineConstants>DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <MtouchArch>ARM64</MtouchArch>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <MtouchDebug>true</MtouchDebug>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhone\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <MtouchArch>ARM64</MtouchArch>
+    <CodesignKey>iPhone Developer</CodesignKey>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Main.cs" />
+    <Compile Include="AppDelegate.cs" />
+    <Compile Include="SceneDelegate.cs" />
+    <None Include="Info.plist" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <InterfaceDefinition Include="Resources\LaunchScreen.xib" />
+    <Compile Include="Product.cs" />
+    <Compile Include="Category.cs" />
+    <Compile Include="Location.cs" />
+    <Compile Include="CatalogViewController.cs" />
+    <Compile Include="CatalogViewController.designer.cs">
+      <DependentUpon>CatalogViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProfileViewController.cs" />
+    <Compile Include="ProfileViewController.designer.cs">
+      <DependentUpon>ProfileViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CartViewController.cs" />
+    <Compile Include="CartViewController.designer.cs">
+      <DependentUpon>CartViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UmbracoViewController.cs" />
+    <Compile Include="UmbracoViewController.designer.cs">
+      <DependentUpon>UmbracoViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Catalog.cs" />
+    <Compile Include="Cart.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterfaceDefinition Include="Main.storyboard" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+        <ImageAsset Include="Assets.xcassets\Second.imageset\Contents.json">
+          <Visible>false</Visible>
+        </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\Second.imageset\Second.pdf">
+          <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon1024.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon167.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon120.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon152.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon180.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon29.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon40.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon58.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon76.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon80.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon87.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon20.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon60.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\MyImage.imageset\boremaskine.jpg" />
+    <ImageAsset Include="Assets.xcassets\MyImage.imageset\boremaskine-1.jpg" />
+    <ImageAsset Include="Assets.xcassets\MyImage.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\MyImage.imageset\boremaskine-2.jpg" />
+    <ImageAsset Include="Assets.xcassets\MyImage.imageset\boremaskine-3.jpg" />
+    <ImageAsset Include="Assets.xcassets\PaintIcon.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\ToolsIcon.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\SmartHomeIcon.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\LightingIcon.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\SmartHomeIcon.imageset\2948319.png" />
+    <ImageAsset Include="Assets.xcassets\LightingIcon.imageset\858150.png" />
+    <ImageAsset Include="Assets.xcassets\ToolsIcon.imageset\1024px-Noun_Project_tools_icon_943586_cc.svg.png" />
+    <ImageAsset Include="Assets.xcassets\PaintIcon.imageset\81980.png" />
+    <ImageAsset Include="Assets.xcassets\CartIcon.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\TimberIcon.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\TimberIcon.imageset\wood-icon-png-24.png" />
+    <ImageAsset Include="Assets.xcassets\GardensIcon.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\GardensIcon.imageset\6430222.png" />
+    <ImageAsset Include="Assets.xcassets\CategoryIcon.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\ProfileIcon.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\ProfileIcon.imageset\Profile-PNG-Free-Image.png" />
+    <ImageAsset Include="Assets.xcassets\CategoryIcon.imageset\img_87908.png" />
+    <ImageAsset Include="Assets.xcassets\CartIcon.imageset\basket-cart-icon-27.png" />
+    <ImageAsset Include="Assets.xcassets\Vinkelnøglesæt.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Vinkelnøglesæt.imageset\vinkelnøglesæt.jpg" />
+    <ImageAsset Include="Assets.xcassets\Skævbider.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Skævbider.imageset\Skævbider.jpg" />
+    <ImageAsset Include="Assets.xcassets\Hobbykniv.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Hobbykniv.imageset\Hobykniv.jpg" />
+    <ImageAsset Include="Assets.xcassets\Nedstryger.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Skruetrækker.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Skruetrækker.imageset\Skruetrækker.jpg" />
+    <ImageAsset Include="Assets.xcassets\Nedstryger.imageset\Nedstryger.jpg" />
+    <ImageAsset Include="Assets.xcassets\Vaterpas.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Vaterpas.imageset\Vaterpas.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="Xamarin.iOS" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Essentials" Version="1.6.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Entitlements.plist" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Assets.xcassets\MyImage.imageset\" />
+    <Folder Include="Assets.xcassets\GardenIcon.imageset\" />
+    <Folder Include="Assets.xcassets\PaintIcon.imageset\" />
+    <Folder Include="Assets.xcassets\ToolsIcon.imageset\" />
+    <Folder Include="Assets.xcassets\SmartHomeIcon.imageset\" />
+    <Folder Include="Assets.xcassets\LightingIcon.imageset\" />
+    <Folder Include="Assets.xcassets\CartIcon.imageset\" />
+    <Folder Include="Assets.xcassets\ToolsIcon2.imageset\" />
+    <Folder Include="Assets.xcassets\TimberIcon.imageset\" />
+    <Folder Include="Assets.xcassets\GardensIcon.imageset\" />
+    <Folder Include="Assets.xcassets\CategoryIcon.imageset\" />
+    <Folder Include="Assets.xcassets\ProfileIcon.imageset\" />
+    <Folder Include="Assets.xcassets\Vinkelnøglesæt.imageset\" />
+    <Folder Include="Assets.xcassets\Skævbider.imageset\" />
+    <Folder Include="Assets.xcassets\Hobbykniv.imageset\" />
+    <Folder Include="Assets.xcassets\Nedstryger.imageset\" />
+    <Folder Include="Assets.xcassets\Skruetrækker.imageset\" />
+    <Folder Include="Assets.xcassets\Vaterpas.imageset\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
+</Project>

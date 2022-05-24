@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "sirxieDe6eA1+y3MQQxJ54Tz8mi/TofwX4jehIo/vuzcM7Lg8sRFMq3Rg+9gUH5lM2UhgCVlq0ElpaaYF4E3RA==",
+  "success": true,
+  "projectFilePath": "/Users/danielegelund/Desktop/appTest/appTest/appTest.csproj",
+  "expectedPackageFiles": [
+    "/Users/danielegelund/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
+    "/Users/danielegelund/.nuget/packages/xamarin.essentials/1.6.1/xamarin.essentials.1.6.1.nupkg.sha512"
+  ],
+  "logs": []
+}

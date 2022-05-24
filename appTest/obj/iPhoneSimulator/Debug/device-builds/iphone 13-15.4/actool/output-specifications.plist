@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>bundle-id</key>
+		<string>com.companyname.appTest.asset-pack-37YZ9MESOEH2C</string>
+		<key>bundle-path</key>
+		<string>/Users/danielegelund/Desktop/appTest/appTest/obj/iPhoneSimulator/Debug/device-builds/iphone 13-15.4/actool/OnDemandResources/com.companyname.appTest.GardenIcon.assetpack</string>
+		<key>tags</key>
+		<array>
+			<string>GardenIcon</string>
+		</array>
+	</dict>
+</array>
+</plist>

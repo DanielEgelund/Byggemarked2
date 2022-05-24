@@ -1,0 +1,55 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/danielegelund/Desktop/appTest/appTest/appTest.csproj": {}
+  },
+  "projects": {
+    "/Users/danielegelund/Desktop/appTest/appTest/appTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/danielegelund/Desktop/appTest/appTest/appTest.csproj",
+        "projectName": "appTest",
+        "projectPath": "/Users/danielegelund/Desktop/appTest/appTest/appTest.csproj",
+        "packagesPath": "/Users/danielegelund/.nuget/packages/",
+        "outputPath": "/Users/danielegelund/Desktop/appTest/appTest/obj/",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "/Users/danielegelund/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "xamarinios10"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "xamarinios10": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "xamarinios10": {
+          "dependencies": {
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.6.1, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

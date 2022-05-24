@@ -1,0 +1,59 @@
+{
+  "_buildCommand2" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : true,
+    "targets" : null
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "ae1495059d6be8c63b84a838856d6877d6861e17e6378657a010ef4a0c17bf23"
+    }
+  ],
+  "containerPath" : "/Users/danielegelund/Desktop/appTest/appTest/obj/Xcode/0/appTest.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "indexbuild",
+    "activeArchitecture" : "x86_64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "iphonesimulator",
+      "sdk" : "iphonesimulator15.5",
+      "sdkVariant" : "iphonesimulator",
+      "supportedArchitectures" : [
+        "x86_64"
+      ],
+      "targetArchitecture" : "x86_64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/danielegelund/Desktop/appTest/appTest/obj/Xcode/0/DerivedData/appTest/Index/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/danielegelund/Desktop/appTest/appTest/obj/Xcode/0/DerivedData/appTest/Index/Build/Products",
+      "derivedDataPath" : "/Users/danielegelund/Desktop/appTest/appTest/obj/Xcode/0/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/danielegelund/Desktop/appTest/appTest/obj/Xcode/0/DerivedData/appTest/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/danielegelund/Desktop/appTest/appTest/obj/Xcode/0/DerivedData/appTest/Index/PrecompiledHeaders",
+      "pchPath" : "/Users/danielegelund/Desktop/appTest/appTest/obj/Xcode/0/DerivedData/appTest/Index/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO",
+          "INDEX_ARENA_INFO_REGULAR_BUILD_PRODUCTS_DIR" : "/Users/danielegelund/Desktop/appTest/appTest/obj/Xcode/0/DerivedData/appTest/Build/Products",
+          "ONLY_ACTIVE_ARCH" : "YES"
+        }
+      }
+    }
+  },
+  "qos" : "utility",
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}
